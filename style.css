@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Homemade+Apple&family=Rancho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slogan {
+    background-color: rgb(43, 16, 3);
+    padding: 10px 0; 
+    margin-top: -10px; 
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(80, 47, 21);
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 115, 0);
+    text-align: justify;
+}
+h3{
+    color: azure;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px; 
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.slogan h2 {
+    font-family: "Galada", cursive;
+    color: #f5ecc4; 
+    font-size: 30px;
+    margin: 0; 
+    padding: 20px 0;
+}
+body, html {
+    height: 100%;
+}
+
+header {
+    background-color: rgb(211, 114, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    letter-spacing: 2px; 
+}
+
+
+header img {
+    height: auto;
+    max-height: 100px;
+}
+
+nav .navbar {
+    width: 100%;
+    background-color: transparent;
+}
+
+nav .navbar-nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav .nav-item {
+    background-color: rgb(43, 16, 3);
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Anton', sans-serif; 
+    color: white;
+    text-decoration: none; 
+}
+
+nav .nav-link:hover {
+    background-color: rgb(205, 133, 63);
+}
+
+.video-container {
+    text-align:center;
+    padding: 20px;
+    margin: auto;
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 15px solid #522500; 
+}
+.map-container {
+    border: 5px solid #FFA500; 
+    margin-bottom: 20px; 
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%; 
+}
+
+.col-md-6 h2, .col-md-6 p {
+    margin: 10px 0; 
+
+}
+.footer {
+    background-color: rgb(205, 133, 63);
+    color: white; 
+    text-align: center; 
+    width: 100%;
+  }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav .navbar-nav {
+        flex-direction: column;
+    }
+
+    nav .nav-item {
+        margin: 5px 0;
+    }
+    .footer {
+        padding: 10px 0;
+      }
+  
+}
+ 
+  
+
